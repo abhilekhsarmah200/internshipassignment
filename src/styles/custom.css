@@ -54,16 +54,8 @@ button {
 .pricing {
   width: 303.08px;
   height: 321px;
-  top: 208px;
-  left: 979px;
-  gap: 0px;
   border-radius: 14px 14px 0px 0px;
-  opacity: 0px;
-  background: linear-gradient(
-    89.99deg,
-    rgba(53, 68, 83, 0.64) 88.84%,
-    rgba(53, 68, 83, 0.64) 100.2%
-  );
+  background: #0000004d;
   border: 1px solid #0000004d;
 }
 .containedButton {
