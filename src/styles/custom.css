@@ -1,0 +1,197 @@
+.bannerImage {
+  height: 658px;
+  width: 100vw;
+  background: linear-gradient(
+      89.99deg,
+      rgba(6, 35, 73, 0.64) 78.84%,
+      rgba(24, 141, 249, 0) 90.2%
+    ),
+    url('../images/b9518fe7b2eff376c94aff47fff92e9a.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.logo {
+  position: relative;
+  width: 165.84px;
+  height: 20.86px;
+}
+.logoButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0rem 4rem;
+  position: relative;
+  top: 57.57px;
+}
+button {
+  font-size: 13px !important;
+  border-radius: 5px !important;
+  color: #17abff !important;
+  border-color: #17abff !important;
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+.descriptionText {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: space-between;
+  position: relative;
+  top: 38px;
+  width: 305px;
+}
+.description {
+  background: #00000042;
+  font-size: 14px;
+}
+.rectangle {
+  height: 38px;
+}
+.pricing {
+  width: 303.08px;
+  height: 321px;
+  top: 208px;
+  left: 979px;
+  gap: 0px;
+  border-radius: 14px 14px 0px 0px;
+  opacity: 0px;
+  background: linear-gradient(
+    89.99deg,
+    rgba(53, 68, 83, 0.64) 88.84%,
+    rgba(53, 68, 83, 0.64) 100.2%
+  );
+  border: 1px solid #0000004d;
+}
+.containedButton {
+  border-radius: 5px !important;
+  color: white !important;
+  border-color: #17abff !important;
+  background-color: #17abff;
+}
+.section2 {
+  width: 100vw;
+  height: 177.81px;
+  background: #f4f9ff;
+  padding: 2rem 4rem;
+}
+.iconImages {
+  width: 50px;
+  height: 48px;
+}
+.section3 {
+  width: 100%;
+  padding: 4rem 6rem 2rem 6rem;
+}
+.harbourtext {
+  height: 23.43px;
+}
+.degrisogono {
+  width: 7.19px;
+  height: 7.01px;
+}
+.geneve {
+  width: 3.51px;
+  height: 3.54px;
+}
+.aminitiesImage {
+  box-shadow: inset 0px 12px 14px 0px;
+  transform: rotate(180deg);
+}
+.exteriorbtn {
+  border-radius: 5px !important;
+  color: white !important;
+  border-color: #00357b !important;
+  background-color: #00357b;
+}
+.interiorbtn {
+  border-radius: 5px !important;
+  color: #00357b !important;
+  border-color: #00357b !important;
+}
+.section4 {
+  width: 100%;
+  padding: 0rem 6rem 4rem 6rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .bannerImage {
+    height: 720px;
+  }
+  .descriptionText {
+    top: 28px;
+  }
+  .iconImages {
+    width: 45px;
+    height: 42px;
+  }
+  .logoButton {
+    padding: 0rem 2rem;
+  }
+
+  .section2 {
+    padding: 2rem 2rem;
+  }
+  .section3 {
+    width: 100%;
+    padding: 2rem 2rem 2rem 2rem;
+  }
+  .pricing {
+    height: 280px;
+  }
+  .harbourtext {
+    height: 18.43px;
+  }
+  button {
+    font-size: 10px !important;
+  }
+  .section4 {
+    padding: 0rem 2rem 2rem 2rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .bannerImage {
+    height: 710px;
+  }
+  .logoButton {
+    top: 45px;
+  }
+}
+@media screen and (max-width: 639px) {
+  .bannerImage {
+    height: 657.07px;
+    background: linear-gradient(
+        89.99deg,
+        rgba(6, 35, 73, 0.64) 18.84%,
+        rgba(24, 141, 249, 0) 68.2%
+      ),
+      url('../images/b9518fe7b2eff376c94aff47fff92e9a.jpeg');
+  }
+  .logo {
+    width: 112px;
+    height: 15px;
+  }
+  .descriptionText {
+    width: 208px;
+  }
+  .section3 {
+    width: 100%;
+    padding: 2rem 1rem 1rem 1rem;
+  }
+  .section2 {
+    padding: 1rem 1rem;
+  }
+  .section4 {
+    padding: 0rem 0rem 1rem 0rem;
+  }
+  .exteriorbtn {
+    width: 50%;
+  }
+  .interiorbtn {
+    width: 50%;
+  }
+}

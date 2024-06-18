@@ -1,0 +1,23 @@
+import A from '../images/HarbourLights/A.svg';
+import H from '../images/HarbourLights/H.svg';
+import R from '../images/HarbourLights/R.svg';
+import B from '../images/HarbourLights/B.svg';
+import O from '../images/HarbourLights/O.svg';
+import U from '../images/HarbourLights/U.svg';
+import L from '../images/HarbourLights/L.svg';
+import I from '../images/HarbourLights/I.svg';
+import G from '../images/HarbourLights/G.svg';
+import T from '../images/HarbourLights/T.svg';
+import S from '../images/HarbourLights/S.svg';
+import d from '../images/de Grisogono/d.svg';
+import e from '../images/de Grisogono/e.svg';
+import N from '../images/de Grisogono/CN.svg';
+import n from '../images/de Grisogono/N.svg';
+import E from '../images/de Grisogono/CE.svg';
+import V from '../images/de Grisogono/V.svg';
+
+export const harbour = [H, A, R, B, O, U, R];
+export const light = [L, I, G, H, T, S];
+export const de = [d, e];
+export const grisogono = [G, R, I, S, O, G, O, N, O];
+export const geneve = [G, E, n, E, V, E];
