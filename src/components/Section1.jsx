@@ -10,7 +10,7 @@ export default function Section1() {
     <div className='relative'>
       <div className='bannerImage'>
         <div className='logoButton'>
-          <Image className='logo' src={logo} />
+          <Image className='logo' src={logo} alt='logo' />
 
           <Button
             variant='bordered'
@@ -20,7 +20,11 @@ export default function Section1() {
             ENQUIRE NOW
           </Button>
           <div className='button md:hidden'>
-            <Image className='w-[24px] h-[12px]' src={burgerMenu} />
+            <Image
+              className='w-[24px] h-[12px]'
+              src={burgerMenu}
+              alt='Burger Menu'
+            />
           </div>
         </div>
         <div className='relative lg:top-[140px] md:top-[100px] top-[80px] flex lg:flex-row gap-[3rem] lg:gap-0 flex-col justify-between lg:px-[4rem] px-[2rem]'>
@@ -37,13 +41,13 @@ export default function Section1() {
             </div>
             <div className='descriptionText'>
               <div className='description flex items-center text-white'>
-                <Image className='rectangle' src={rectangle} />
+                <Image className='rectangle' src={rectangle} alt='rectangle' />
                 <div className='p-2 lg:text-[14px] sm:text-[11px] text-[9px]'>
                   Rental Returns of UPTO 11%**
                 </div>
               </div>
               <div className='description flex items-center text-white'>
-                <Image className='rectangle' src={rectangle} />
+                <Image className='rectangle' src={rectangle} alt='rectangle' />
                 <div className='p-2 lg:text-[14px] sm:text-[11px] text-[9px]'>
                   Capital Appreciation of UPTO 32%**
                 </div>

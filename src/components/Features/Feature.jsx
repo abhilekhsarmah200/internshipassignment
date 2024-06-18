@@ -19,11 +19,15 @@ export default function Feature() {
       </div>
       <div className='grid grid-cols-2 lg:flex sm:gap-[6rem] gap-[3rem] lg:justify-evenly lg:gap-2 lg:mt-[8rem] sm:mt-[6rem] mt-[4rem]'>
         {aminities.map((item, index) => (
-          <div className='lg:w-[227px] sm:w-[200px] w-[150px] mx-auto lg:h-[221px] sm:h-[190px] h-[170px] rounded-[20px] shadow-xl cursor-pointer transition transform duration-300 ease-in-out md:hover:scale-105'>
+          <div
+            key={index}
+            className='lg:w-[227px] sm:w-[200px] w-[150px] mx-auto lg:h-[221px] sm:h-[190px] h-[170px] rounded-[20px] shadow-xl cursor-pointer transition transform duration-300 ease-in-out md:hover:scale-105'
+          >
             <div className='lg:w-[193px] sm:w-[175px] w-[125px] sm:-mt-[5rem] -mt-[2rem] mx-auto lg:h-[210px] sm:h-[190px] h-[135px] aminitiesImage rounded-full'>
               <Image
                 className='lg:w-[193px] sm:w-[175px] w-[125px] lg:h-[193px] sm:h-[175px] h-[125px] mx-auto rounded-full'
                 src={item?.img}
+                alt='Aminities'
               />
             </div>
             <div className='lg:w-[123px] w-[110px] lg:text-[14px] text-[11px] text-[#00357B] font-[600] mx-auto text-center mt-[1rem]'>

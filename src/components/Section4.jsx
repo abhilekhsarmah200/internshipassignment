@@ -42,13 +42,16 @@ export default function Section4() {
               <Image
                 className='lg:h-[494px] md:h-[400px] sm:h-[300px] h-[220px] rounded-xl'
                 src={exteriorImg1}
+                alt='gallery Image'
               />
             </div>
             <div className='flex sm:gap-2 gap-1 w-[100%] justify-between mx-auto'>
-              {gallery?.map((item) => (
+              {gallery?.map((item, index) => (
                 <Image
+                  key={index}
                   className='w-[24%] lg:h-[168px] md:h-[138px] sm:h-[110px] h-[70px] rounded-xl'
                   src={item}
+                  alt='gallery Image'
                 />
               ))}
             </div>
